@@ -1,53 +1,52 @@
-.container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: rgb(70, 139, 151);
-    padding: 20px;
-    border-radius: 20px;
-    height: 300px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 
-.leftForm{
-    background-color: rgb(29, 91, 121);
-    color: rgb(243, 170, 96);
+.container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(70, 25, 89);
+    padding: 20px;
     border-radius: 20px;
     height: fit-content;
-    width: 40%;
-    height: 100%;
+    
+    background-image: url("purple-fog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
+
+.container h1{
+    text-align: center;
+    color: rgb(174, 216, 204);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
 .MyForm{
     width: 30%;
-    
-    margin-left: 15%;
-}
-
-.leftForm h1{
-    text-align: center;
-    width: 80%;
-    font-size: 180%;
-
-}
-.leftForm img{
-    width: 45%;
-    margin-bottom: 40px;
-    border-radius: 20px;
 }
 
 form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
 }
 
 .MyForm input{
-    width: 150%;
+    width: fit-content;
     height: 30px;
     border-radius: 15px;
     text-align: center;
     font-weight: 700;
+    box-shadow: 0px 6px 0px 0px rgb(192, 4, 4);
+    padding: 15px;
+    border: none;
+}
+
+.MyForm button{
+    width: 120;
+    height: 30;
+    font-weight: 700;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
 }
