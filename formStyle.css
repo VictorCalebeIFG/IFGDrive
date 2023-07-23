@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(70, 139, 151);
+    padding: 20px;
+    border-radius: 20px;
+    height: 300px;
+}
+
+.leftForm{
+    background-color: rgb(29, 91, 121);
+    color: rgb(243, 170, 96);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    height: fit-content;
+    width: 40%;
+    height: 100%;
+}
+.MyForm{
+    width: 30%;
+    
+    margin-left: 15%;
+}
+
+.leftForm h1{
+    text-align: center;
+    width: 80%;
+    font-size: 180%;
+
+}
+.leftForm img{
+    width: 45%;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.MyForm input{
+    width: 150%;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 700;
+}
